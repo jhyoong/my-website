@@ -1,2 +1,3 @@
-# my-website
-Basic website
+# Hi.
+
+Nothing fancy here.

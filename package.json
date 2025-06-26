@@ -1,6 +1,6 @@
 {
-  "name": "next-starter-template",
-  "description": "Build a full-stack web application with Next.js.",
+  "name": "basic-homepage",
+  "description": "Basic website. ",
   "cloudflare": {
     "label": "Next.js Framework Starter",
     "products": [

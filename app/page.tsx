@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="container">
-      <h1>Hi there</h1>
+      <h1>Hi.</h1>
       <div className="about">
         <p>I&apos;m JiaHui. I&apos;m a software engineer that deals mostly with Cloud and backend services. Right now, I&apos;m currently tinkering with the new AI technologies; local LLMs, Agentic AI, MCP etc. If you&apos;re recruiting for software roles, feel free to drop an email to hello@yoongjiahui.com</p>
       </div>
