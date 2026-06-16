@@ -6,7 +6,7 @@ export default function Home() {
   const [greeting, setGreeting] = useState('Hi.');
 
   useEffect(() => {
-    const greetings = ['Hello!', 'Hi.', 'Hey there.', 'Greetings, web-crawler.', 'Did you come here after reading my resume?', 'I don\'t bite.'];
+    const greetings = ['Hello!', 'Hi.', 'Hey there.', 'Greetings, web-crawler.', 'Did you come here after reading my resume?', 'I don\'t bite.', 'I may or may not respond.'];
     const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
     setGreeting(randomGreeting);
   }, []);
@@ -15,7 +15,7 @@ export default function Home() {
     <div className="container">
       <h1>{greeting}</h1>
       <div className="about">
-        <p>I&apos;m JiaHui. I&apos;m a software engineer that deals mostly with AWS Cloud and backend services. Right now, I&apos;m currently tinkering with the new AI technologies; local LLMs, Agentic AI, MCP etc. If you&apos;re recruiting for software roles, feel free to drop an email to hello@yoongjiahui.com</p>
+        <p>I&apos;m JiaHui. I&apos;m a software/platform engineer that deals mostly with AWS Cloud and backend services, and now learning more about on-prem solutions with AI. Right now, I&apos;m currently tinkering with the new AI technologies; local LLMs, Agentic AI, MCP, AIOps etc. If you&apos;re recruiting for software roles, feel free to drop an email to hello@yoongjiahui.com</p>
       </div>
       <a href="https://linkedin.com/in/yoongjh" className="linkedin-link" target="_blank" rel="noopener noreferrer">
         <svg className="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
